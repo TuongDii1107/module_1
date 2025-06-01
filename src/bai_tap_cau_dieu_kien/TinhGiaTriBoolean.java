@@ -6,7 +6,6 @@ package bai_tap_cau_dieu_kien;
  boolean c = a && b;
  boolean d = !a || b;
  */
-
 public class TinhGiaTriBoolean {
     public static void main(String[] args) {
         Boolean a = true && false; // suy ra a = fasle
