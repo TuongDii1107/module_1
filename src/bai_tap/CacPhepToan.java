@@ -1,11 +1,11 @@
+
+package bai_tap;
+
+import java.util.Scanner;
 /**
  * Viết một chương trình Java để nhập vào hai số nguyên a và b từ người dùng.
  * Sau đó, tính và hiển thị tổng, hiệu, tích và thương của hai số đó.
  */
-package bai_tap;
-
-import java.util.Scanner;
-
 public class CacPhepToan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,12 +1,12 @@
+
+package bai_tap;
+
+import java.util.Scanner;
 /**
  * Nhập tên sản phẩm, số lượng và đơn giá. Tính tiền và thuế giá trị gia tăng phải trả, biết:
  * a. tiền = số lượng * đơn giá
  * b. thuế giá trị gia tăng = 10%
  */
-package bai_tap;
-
-import java.util.Scanner;
-
 public class TinhTienThue {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

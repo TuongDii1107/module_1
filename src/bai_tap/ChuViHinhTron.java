@@ -1,3 +1,7 @@
+
+package bai_tap;
+
+import java.util.Scanner;
 /**
  * Nhập bán kính của đường tròn. Tính chu vi và diện tích của hình tròn đó.
  *
@@ -5,11 +9,6 @@
  * Chu vi: C = 2 * π * r
  * Diện tích: A = π * r²
  */
-
-package bai_tap;
-
-import java.util.Scanner;
-
 public class ChuViHinhTron {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -1,9 +1,11 @@
-/**
- * Nhập vào số xe của bạn (Gồm tối đa 5 chữ số). Cho biết số xe của bạn được mấy nút?
- */
+
 package bai_tap;
 
 import java.util.Scanner;
+
+/**
+ * Nhập vào số xe của bạn (Gồm tối đa 5 chữ số). Cho biết số xe của bạn được mấy nút?
+ */
 
 public class TinhNut {
     public static void main(String[] args) {

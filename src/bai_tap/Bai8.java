@@ -1,3 +1,5 @@
+
+package bai_tap;
 /**
  *Kết quả của các dòng lệnh sau là gì:
  *
@@ -5,8 +7,6 @@
  * System.out.println(i++);
  * System.out.println(++i);
  */
-
-package bai_tap;
 
 public class Bai8 {
     public static void main(String[] args) {

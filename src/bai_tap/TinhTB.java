@@ -1,10 +1,10 @@
-/**
- * Nhập điểm thi và hệ số 3 môn Toán, Lý, Hóa của một học sinh. Tính điểm trung bình của học sinh đó.
- */
+
 package bai_tap;
 
 import java.util.Scanner;
-
+/**
+ * Nhập điểm thi và hệ số 3 môn Toán, Lý, Hóa của một học sinh. Tính điểm trung bình của học sinh đó.
+ */
 public class TinhTB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

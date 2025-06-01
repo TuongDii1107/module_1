@@ -1,3 +1,5 @@
+
+package bai_tap;
 /**
  * Tìm a, i, j biết:
  * a.    int i = 1, j = 1;
@@ -17,8 +19,6 @@
  * h.    int a = 10;
  * a += a++ + ++a;
  */
-package bai_tap;
-
 public class TinhGiaTri {
     public static void main(String[] args) {
         int i = 1;
