@@ -8,7 +8,7 @@ package bai_tap_cau_dieu_kien;
  */
 public class TinhGiaTriBoolean {
     public static void main(String[] args) {
-        Boolean a = true && false; // suy ra a = fasle
+        Boolean a = true && false; // suy ra a = fasle, Boolean có chưa null còn b nhỏ không chứ null
         Boolean b = false || true; // suy ra b = true
         Boolean c = false && true;
         Boolean d = !false || true;
