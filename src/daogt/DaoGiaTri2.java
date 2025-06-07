@@ -1,4 +1,4 @@
-package bai_tap_cau_dieu_kien;
+package daogt;
 
 import java.util.Scanner;
 

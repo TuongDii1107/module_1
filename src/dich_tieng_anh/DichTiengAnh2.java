@@ -1,4 +1,4 @@
-package bai_tap_cau_dieu_kien;
+package dich_tieng_anh;
 
 import java.util.Scanner;
 

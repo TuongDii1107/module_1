@@ -1,11 +1,10 @@
-package bai_tap_cau_dieu_kien;
-
+package min_max;
 import java.util.Scanner;
 
 /*
-Toán tử 3 ngôi
+Nhập vào 2 số nguyên a, b. In ra màn hình kết quả số lớn nhất, nhỏ nhất.
  */
-public class MinMax2 {
+public class TimMinMax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,9 +14,16 @@ public class MinMax2 {
         System.out.println("Nhập vào số nguyên b: ");
         int b = sc.nextInt();
 
-        int max = a > b ? a : b;
-        int min = a < b ? a : b;
+        int max;
+        int min;
 
+        if (a > b) {
+            max = a;
+            min = b;
+        } else {
+            max = b;
+            min = a;
+        }
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
     }
