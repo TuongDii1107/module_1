@@ -16,7 +16,7 @@ public class Bai22 {
             a = sc.nextInt();
             System.out.print("Nhập số nguyên dương b: ");
             b = sc.nextInt();
-        } while (a <= 0 || b <= 0 || b <= a);
+        } while (a <= 0 || b <= 0 || b <= a);// xem lại là phải làm do while cho hai số a và b và do while tổng a và b
 
         int demDoiXung = 0, tongDoiXung = 0;
         int demChinhPhuong = 0, tongChinhPhuong = 0;

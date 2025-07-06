@@ -9,8 +9,8 @@ public class Bai23 {
         System.out.println("Các số thỏa mãn điều kiện:");
 
         for (int i = 10; i <= 99; i++) {
-            int hangChuc = i / 10;
-            int hangDonVi = i % 10;
+            int hangChuc = i / 10;//lấy chữ số hàng chục
+            int hangDonVi = i % 10;// lấy chữ số hàng đơn vị
 
             int tong = hangChuc + hangDonVi;
             int tich = hangChuc * hangDonVi;
