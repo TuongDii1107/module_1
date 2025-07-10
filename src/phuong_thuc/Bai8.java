@@ -299,6 +299,7 @@ public class Bai8 {
                 xuat();
 
                 System.out.println("Xuất thông tin nhân viên 2: ");
+
                 xuat1();
             }
         } else {
