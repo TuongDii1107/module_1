@@ -1,4 +1,5 @@
 package Mang;
+
 import java.util.Scanner;
 
 /*
@@ -21,7 +22,7 @@ import java.util.Scanner;
     d. Nhập vào phần tử k, tìm xem k có xuất hiện trong mảng a không. Nếu có chỉ ra các vị trí của k trong mảng. (*)
     e. Tìm giá trị lớn nhất và nhỏ nhất của mảng a.
  */
-public class Bai1_SQC{
+public class Bai1_SQC {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -201,7 +202,7 @@ public class Bai1_SQC{
     }
 
     // 4c. Tìm số dương nhỏ nhất trong mảng.
-    public static  Integer findMinPositive(int[] arr) {
+    public static Integer findMinPositive(int[] arr) {
         Integer min = null;
         for (int x : arr) {
             if (x > 0 && (min == null || x < min)) {
